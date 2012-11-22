@@ -1,1 +1,19 @@
+<<<<<<< HEAD
 *.exe
+=======
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+*.exe
+>>>>>>> 89f2814c49bfe0ab7d821b8f86b089ca2976e90f
