@@ -8,7 +8,7 @@ void error_message(initializer_list<string> pal)
         cout<<str<<' ';
     cout<<endl;
 }
-void message2(const char* str1...)
+void message2(const char* str1, ...)
 {
     va_list ap;
     va_start(ap,str1);
