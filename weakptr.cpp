@@ -1,7 +1,7 @@
 #include <iostream>
 #include <memory>
 #include "strblob.hpp"
-#include "strblobptr.hpp"
+//#include "strblobptr.hpp"
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int main() {
     //weak_ptr<int> wp(p);
     StrBlob b1 = { "a", "an", "the"};
     auto p = b1.begin();
-    while(p) {
+    while(neq(p, b1.end())) {
         cout<<p.deref()<<endl;
         p = p.incr();
     }
