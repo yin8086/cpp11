@@ -14,5 +14,6 @@
 *.la
 *.a
 
+*.pro.user
 /out
 /example
